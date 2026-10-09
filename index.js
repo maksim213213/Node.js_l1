@@ -1,2 +1,8 @@
 const name = process.argv[2];
-console.log(`Hello, ${name}!`);
+if (!name) {
+    console.log(`Hello, World!`);
+}
+else {
+    console.log(`Hello, ${name}!`);
+}
+console.log(`Maksim paskovskij`);
